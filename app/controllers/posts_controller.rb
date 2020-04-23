@@ -34,7 +34,7 @@ before_action :find_post, only:[:show, :edit, :update, :destroy]
 
     def destroy
         @post.destroy
-        redirect_to root_path
+        redirect_to root_path, notice: 'The post has been deleted!'
     end
 
     private
