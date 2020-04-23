@@ -1,3 +1,12 @@
+<% if @post.errors.any? %>
+<p><%= pluralize(@post.errors.count, 'error') %> prohibited this post from being saved:</p>
+<ul>
+  <% @post.errors.full_messages.each do |error| %>
+    <li><%= error %></li>
+    <% end %>
+</ul>
+<% end %>
+
 <div class="section">
 <%= simple_form_for @post do |f| %>
   <div class="field">
