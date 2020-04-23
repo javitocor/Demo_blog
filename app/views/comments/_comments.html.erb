@@ -4,12 +4,12 @@
       <div class="content">
         <p>
           <strong><%= comment.name %>:</strong>
-          <%= comment.comment %>
+          <%= comment.content %>
         </p>
       </div>
     </div>
      <%= link_to 'Delete', [comment.post, comment],
-                  method: :delete, class: "button is-danger", data: { confirm: 'Are you sure?' } %>
+                  method: :delete, class: "button is-danger", data: { confirm: 'Do you want to delete the comment?' } %>
   </article>
 
 </div>
