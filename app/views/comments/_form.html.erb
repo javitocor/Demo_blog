@@ -1,11 +1,3 @@
-<% if @post.comments.errors.any? %>
-<p><%= pluralize(@post.comments.errors.count, 'error') %> prohibited this post from being saved:</p>
-<ul>
-  <% @post.comments.errors.full_messages.each do |error| %>
-    <li><%= error %></li>
-    <% end %>
-</ul>
-<% end %>
 
 <%= simple_form_for([@post, @post.comments.build]) do |f| %>
 <!--
