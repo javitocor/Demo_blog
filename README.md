@@ -1,24 +1,53 @@
-# README
+# Demo_blog
+A blog built up with ruby on rails following the indications in https://web-crunch.com/posts/lets-build-with-ruby-on-rails-blog-with-comments
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# What it does
+You can add posts and comment them in this site
 
-Things you may want to cover:
+# Built
+Ruby on rails
+VSCode
+Ruby
 
-* Ruby version
+# Getting Started
+To get a local copy up and running follow these simple example steps.
 
-* System dependencies
+Clone the project unto your local machine
+Run the server with 'rails server'
+Open your browser and type 'localhost:3000'
 
-* Configuration
+# Prerequisites
+- Get the latest version of Ruby
 
-* Database creation
+# Author
 
-* Database initialization
+👤 Javier Oriol Correas Sanchez Cuesta
 
-* How to run the test suite
+- Github: [@githubhandle](https://github.com/javitocor)
+- Twitter: [@twitterhandle](https://twitter.com/JavierCorreas4)
+- Linkedin: [linkedin](https://www.linkedin.com/in/javier-correas-sanchez-cuesta-15289482/)
 
-* Services (job queues, cache servers, search engines, etc.)
+# 🤝 Contributing
+Contributions, issues and feature requests are welcome! Start by:
 
-* Deployment instructions
+- Forking the project.
+- Cloning the project to your local machine.
+- cd into the project directory.
+- Run git checkout -b your-branch-name.
+- Make your contributions.
+- Push your branch up to your forked repository.
+- Open a Pull Request with a detailed description to the development branch of the original project for a review.
 
-* ...
+# Attributions and Credit 🚀
+- Web-crunch.com
+- @justalever
+- @hello_rails 
+
+# Show your support
+Give a ⭐️ if you like this project!
+
+📝 License
+
+Check out my stories on medium to see what I'm talking about! Follow me on Instagram and Twitter to see what I am up to!
+
+Enjoy!
