@@ -1,5 +1,5 @@
 <% content_for :page_title, @post.title %>
-
+<p><%= notice %></p>
 <section class="section">
 	<div class="container">
 		<nav class="level">
@@ -29,11 +29,11 @@
 
 <section class="section comments">
 	<div class="container">
-		<h2 class="subtitle is-5"><strong><%= @post.comments.count %></strong> Comments</h2>
+		<h2 class="subtitle is-5"><strong><%= @post.comments.count %></strong> Comments:</h2>
 		<%= render @post.comments %>
 		<div class="comment-form">
 			<hr />
-			<h3 class="subtitle is-3">Leave a reply</h3>
+			<h3 class="subtitle is-3">Leave a comment</h3>
 	 		<%= render 'comments/form' %>
 		</div>
 	</div>
