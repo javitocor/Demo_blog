@@ -12,9 +12,10 @@ Ruby
 # Getting Started
 To get a local copy up and running follow these simple example steps.
 
-Clone the project unto your local machine
-Run the server with 'rails server'
-Open your browser and type 'localhost:3000'
+- Clone the project unto your local machine
+- Run 'bundle install' and 'rails db:migrate'
+- Run the server with 'rails server'
+- Open your browser and type 'localhost:3000'
 
 # Prerequisites
 - Get the latest version of Ruby
@@ -23,9 +24,9 @@ Open your browser and type 'localhost:3000'
 
 👤 Javier Oriol Correas Sanchez Cuesta
 
-- Github: [@githubhandle](https://github.com/javitocor)
-- Twitter: [@twitterhandle](https://twitter.com/JavierCorreas4)
-- Linkedin: [linkedin](https://www.linkedin.com/in/javier-correas-sanchez-cuesta-15289482/)
+- Github: [@javitocor](https://github.com/javitocor)
+- Twitter: [@JavierCorreas4](https://twitter.com/JavierCorreas4)
+- Linkedin: [Javier Oriol Correas Sanchez-Cuesta](https://www.linkedin.com/in/javier-correas-sanchez-cuesta-15289482/)
 
 # 🤝 Contributing
 Contributions, issues and feature requests are welcome! Start by:
