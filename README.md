@@ -1,6 +1,8 @@
 # Demo_blog
 A blog built up with ruby on rails following the indications in https://web-crunch.com/posts/lets-build-with-ruby-on-rails-blog-with-comments
 
+![screenshot](/app/assets/images/screenshot.png)
+
 # What it does
 You can add posts and comment them in this site
 
